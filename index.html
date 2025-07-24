@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Portfolio</title>
+
+</head>
+<body>
+  <!--NAVBAR-->
+  <nav>
+    <div class="left">
+      <a href="/">Anuj Shrestha</a>
+    </div>
+    <div class="right">
+      <a href="http://github.com" taget="_blank">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+
+      <a href="https://www.linkedin.com/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+
+      <a href="mailto:anuj@example.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero-->
+     <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Anuj</h2>
+        <p>I'm a second-year college student specializing in Networking and Cybersecurity, driven by a deep passion for technology and innovation. Alongside my academic path, I'm exploring the world of App Development and AI. I'm currently learning JavaScript, React, Python, and Machine Learning to build secure and intelligent applications. I'm constantly expanding my skills to become a versatile and forward-thinking developer, blending cybersecurity principles with creative solutions for real-world impact.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+
+          <a href="#testimony">
+            <i class="fa-solid fa-pen-nib"></i>
+            <span>Testimony</span>
+          </a>
+
+          <a href="#contact">
+            <i class="fa-solid fa-address-card"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="headshot">
+        <img src="images/hero-headshot.webp" alt="Anuj Shrestha headshot">
+      </div>
+     </section>
+      
+    <!-- SECTION 2: Skills-->
+     <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        I have a strong foundation in front-end web development with skills in HTML and CSS, allowing me to create clean, responsive, and visually appealing interfaces. I'm proficient in JavaScript, which I use to build interactive and dynamic user experiences. I'm also experienced with React.js, developing reusable components and single-page applications. In addition, I have a solid grasp of Python, which I use for scripting, backend logic, and exploring data-driven and AI-based applications.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>
+            HTML
+          </span>
+        </div>
+
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>
+            CSS
+          </span>
+        </div>
+
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>
+            JavaScript
+          </span>
+        </div>
+
+        <div class="cell">
+          <img src="images/react-logo.webp" alt="react logo">
+          <span>
+            React
+          </span>
+        </div>
+
+        <div class="cell">
+          <img src="images/python-logo.webp" alt="python logo">
+          <span>
+            Python
+          </span>
+        </div>
+      </div>
+     </section>
+
+     <!--SECTION 3: Testimony-->
+     <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/cryptopunk6541.webp" alt="Steve Jobs">
+          <p>Jessica Williams</p>
+          <p>Marketing Director, NovaTech Solutions</p>
+        </div>
+
+        <div class="text">
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cupiditate sunt, libero dolor voluptas debitis eius ad at minus impedit unde eligendi mollitia aut laboriosam quibusdam ipsa incidunt voluptates tempore molestias ullam enim nulla. Aperiam blanditiis vero quidem, ex aut cupiditate veniam quaerat ut, recusandae quasi ratione rem fugit laborum?"
+        </div>
+      </div>
+      </div>
+     </section>
+
+     <!--SECTION 4: Contacts-->
+     <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quo quae non repellendus quaerat iure porro voluptatem. Non maxime tempora illo? Quos earum labore nisi ipsum provident, quia ullam. Temporibus voluptates natus possimus alias in, reprehenderit ducimus sequi quam, animi numquam, recusandae tenetur voluptas. Aperiam architecto inventore laudantium nesciunt excepturi.
+        </div>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+     </section>
+  </main>
+</body>
+</html>
